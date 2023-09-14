@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scipy
+num2words
+gensim
+lxml
+nltk
+spacy
+xlrd
