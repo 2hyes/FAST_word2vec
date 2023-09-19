@@ -63,3 +63,25 @@
 ### 1. 분석
 `research2/2_get_similarity_and_coherence_90.ipynb` 소스코드를 통해, 실험자가 요청한 대로 데이터를 가공하고 분석한다. 
 해당 분석 결과는 research2/data/processed/similarity_coherence_data_90.csv에 저장된다.
+
+## Pilot 2
+
+### 데이터 디렉토리 구조
+```
+/
+├── pretrained/
+│   └── GoogleNews-vectors-negative300.bin
+├── README.md
+├── requirements.txt
+├── pilot2/
+    ├── data/
+    │   └── processed/
+    │       ├── data_after_preprocessing.csv
+    │       ├── merged_data.csv
+    │       ├── similarity_coherence_data_300_with_words.csv
+    │       └── similarity_coherence_data_300.csv
+    │   
+    ├── 1_check_words.ipynb
+    ├── need_to_be_fixed.csv
+    └── 2_get_similarity_and_coherence_pilot.ipynb
+```
