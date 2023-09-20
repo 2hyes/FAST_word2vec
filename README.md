@@ -10,6 +10,8 @@
 ├── requirements.txt
 ├── research1/
     ├── data/
+    │   ├── data_preprocess/
+    │   │   └── need_to_be_fixed.csv
     │   ├── processed/
     │   │   ├── merged_data.csv
     │   │   └── similarity_coherence_data.csv
@@ -18,7 +20,6 @@
     │       └── rawdata_study2.xls
     ├── 0_save_data_merged_csv.ipynb
     ├── 1_check_words.ipynb
-    ├── need_to_be_fixed.csv
     └── 2_get_similarity_and_coherence.ipynb
 ```
 
@@ -75,6 +76,8 @@
 ├── requirements.txt
 ├── pilot2/
     ├── data/
+    │   ├── data_preprocess/
+    │   │   └── need_to_be_fixed.csv
     │   └── processed/
     │       ├── data_after_preprocessing.csv
     │       ├── merged_data.csv
@@ -82,6 +85,5 @@
     │       └── similarity_coherence_data_300.csv
     │   
     ├── 1_check_words.ipynb
-    ├── need_to_be_fixed.csv
     └── 2_get_similarity_and_coherence_pilot.ipynb
 ```
