@@ -6,3 +6,5 @@ num2words
 gensim
 lxml
 xlrd
+statsmodels
+pingouin
